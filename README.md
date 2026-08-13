@@ -13,11 +13,7 @@ pak::pak("andyjiayuwang/HTEPower")
 ## Simplified power formula
 
 The initial function solves the equality boundary of
-\[
-n \geq
-\frac{\sigma^2\left(z_{1-\alpha/2}+z_{\kappa}\right)^2}
-{p(1-p)\operatorname{Var}\{s_0(X)\}}.
-\]
+$$n \geq \frac{\sigma^2\left(z_{1-\alpha/2}+z_{\kappa}\right)^2}{p(1-p)\operatorname{Var}\{s_0(X)\}}.$$
 
 Pass exactly one of `n`, `alpha`, `kappa`, `p`, `sigma2`, or `var_s0` as
 `NULL`. The function solves for that quantity using the other five inputs.
