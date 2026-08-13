@@ -24,17 +24,17 @@
 #' @export
 #'
 #' @examples
-#' hte_power_simple(
+#' hte_power(
 #'   n = NULL, alpha = 0.05, kappa = 0.8, p = 0.5,
 #'   sigma2 = 10, var_s0 = 0.25
 #' )
 #'
-#' hte_power_simple(
+#' hte_power(
 #'   n = 1256, alpha = 0.05, kappa = 0.8, p = NULL,
 #'   sigma2 = 10, var_s0 = 0.25
 #' )
-hte_power_simple <- function(n = NULL, alpha = NULL, kappa = NULL,
-                             p = NULL, sigma2 = NULL, var_s0 = NULL) {
+hte_power <- function(n = NULL, alpha = NULL, kappa = NULL,
+                      p = NULL, sigma2 = NULL, var_s0 = NULL) {
   inputs <- list(
     n = n,
     alpha = alpha,

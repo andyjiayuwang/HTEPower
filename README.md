@@ -27,7 +27,7 @@ When solving for `n`, it rounds the result up to the nearest integer.
 ```r
 library(HTEPower)
 
-hte_power_simple(
+hte_power(
   n = NULL,
   alpha = 0.05,
   kappa = 0.8,
@@ -42,7 +42,7 @@ Solving for `p` generally returns two symmetric treatment probabilities
 because `p * (1 - p)` is unchanged when `p` is replaced by `1 - p`.
 
 ```r
-hte_power_simple(
+hte_power(
   n = 1256,
   alpha = 0.05,
   kappa = 0.8,
