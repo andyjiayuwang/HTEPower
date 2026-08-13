@@ -1,0 +1,19 @@
+Package: HTEPower
+Title: Power Calculations for Heterogeneous Treatment Effects
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Andy J.", "Wang", email = "andyjiayuwang@users.noreply.github.com",
+           role = c("aut", "cre")),
+    person("Jiawei", "Fu", role = "aut"),
+    person("Donald P.", "Green", role = "aut")
+  )
+Description: Provides sample-size and design calculations for tests of
+    heterogeneous treatment effects. The initial implementation solves a
+    simplified analytical power formula under leave-one-unknown inputs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
